@@ -32,7 +32,7 @@ class TodoController extends Controller
         return $this->render('todo/edit.html.twig');
     }
 
-     /**
+    /**
      * @Route("/todo/details/{id}", name="todo_details")
      */
     public function detailsAction($id)
@@ -41,7 +41,7 @@ class TodoController extends Controller
     }
 
     /**
-     * @Route("/todo/delete/{id}", name="todo_details")
+     * @Route("/todo/delete/{id}", name="todo_delete")
      */
     public function deleteAction($id)
     {
