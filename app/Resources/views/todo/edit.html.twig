@@ -1,5 +1,9 @@
 {% extends 'base.html.twig' %}
 {% block body %}
     <a href="/" class="btn btn-default">Back</a>
+    <hr>
     <h2 class="page-header">Edit Todo</h2>
+        {{form_start(form)}}
+        {{form_widget(form)}}
+        {{form_end(form)}}
 {% endblock %}
